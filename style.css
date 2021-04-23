@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   font-family: 'Courier New', sans-srif;
+
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(orange.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin: 30px;
+}
+.nav-area li {
+    display: inline-block;
+}
+.nav-area li a{
+    border: 1px solid rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area li a:hover {
+    background: white;
+    color: black;
+
+}
+.logo {
+    float: left;
+}
+.logo img{
+    width: 100px;
+    padding: 15px ;
+
+}
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text h1 span {
+    color: white;
+}
+.welcome-text a{
+    border: 1px solid rgb(255, 102, 0);
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 20px;
+    display: inline-block;
+    color: rgb(255, 102, 0);
+}
+.welcome-text a:hover {
+    background: white;
+    color: black;
+}
